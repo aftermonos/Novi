@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="262" height="36" viewBox="0 0 262 36" role="img" aria-label="Status: in development">
+  <title>Status: in development</title>
+  <style>
+    .t { font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 2.4px; }
+    @keyframes pulse { 0% { r: 4; opacity: .55; } 70% { r: 11; opacity: 0; } 100% { r: 11; opacity: 0; } }
+    .ring { animation: pulse 2.4s ease-out infinite; transform-origin: 22px 18px; }
+  </style>
+  <rect x="0.5" y="0.5" width="261" height="35" rx="17.5" fill="#141512" stroke="#2C2E28"/>
+  <circle class="ring" cx="22" cy="18" r="4" fill="#C7E86B"/>
+  <circle cx="22" cy="18" r="4" fill="#C7E86B"/>
+  <text class="t" x="38" y="22" fill="#F5F1E6">IN DEVELOPMENT</text>
+  <line x1="196" y1="11" x2="196" y2="25" stroke="#2C2E28"/>
+  <text class="t" x="208" y="22" fill="#6E7067">2026</text>
+</svg>

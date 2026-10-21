@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="Roadmap: 01 Identity (current), 02 Prototype, 03 Memory, 04 Early access">
+  <title>Novi roadmap</title>
+  <style>
+    .eyebrow { font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 2.6px; fill: #6E7067; }
+    .num { font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 1.6px; fill: #6E7067; }
+    .now { font: 600 10px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 2px; fill: #C7E86B; }
+    .h { font: 600 18px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #F5F1E6; }
+    .hm { font: 600 18px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #B9B6AC; }
+    .p { font: 400 13px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #8A8C82; }
+    @keyframes pulse { 0% { r: 6; opacity: .5; } 70% { r: 16; opacity: 0; } 100% { r: 16; opacity: 0; } }
+    .ring { animation: pulse 2.4s ease-out infinite; }
+  </style>
+
+  <rect width="880" height="250" rx="18" fill="#0E0F0D"/>
+  <rect x="0.5" y="0.5" width="879" height="249" rx="17.5" fill="none" stroke="#24261F"/>
+
+  <text class="eyebrow" x="48" y="54">ROADMAP</text>
+
+  <!-- track -->
+  <line x1="54" y1="100" x2="832" y2="100" stroke="#2C2E28" stroke-width="1.5"/>
+  <line x1="54" y1="100" x2="250" y2="100" stroke="#C7E86B" stroke-width="1.5" opacity=".55"/>
+
+  <!-- 01 current -->
+  <circle class="ring" cx="54" cy="100" r="6" fill="#C7E86B"/>
+  <circle cx="54" cy="100" r="6" fill="#C7E86B"/>
+  <text class="num" x="48" y="140">01</text>
+  <text class="now" x="76" y="140">NOW</text>
+  <text class="h" x="48" y="168">Identity</text>
+  <text class="p" x="48" y="192">Character, voice and</text>
+  <text class="p" x="48" y="210">interaction concepts.</text>
+
+  <!-- 02 -->
+  <circle cx="250" cy="100" r="5" fill="#0E0F0D" stroke="#6E7067" stroke-width="1.5"/>
+  <text class="num" x="244" y="140">02</text>
+  <text class="hm" x="244" y="168">Prototype</text>
+  <text class="p" x="244" y="192">Desktop window, chat</text>
+  <text class="p" x="244" y="210">and trade notes.</text>
+
+  <!-- 03 -->
+  <circle cx="446" cy="100" r="5" fill="#0E0F0D" stroke="#6E7067" stroke-width="1.5"/>
+  <text class="num" x="440" y="140">03</text>
+  <text class="hm" x="440" y="168">Memory</text>
+  <text class="p" x="440" y="192">Preferences, history and</text>
+  <text class="p" x="440" y="210">habit reflection.</text>
+
+  <!-- 04 -->
+  <circle cx="642" cy="100" r="5" fill="#0E0F0D" stroke="#6E7067" stroke-width="1.5"/>
+  <text class="num" x="636" y="140">04</text>
+  <text class="hm" x="636" y="168">Early access</text>
+  <text class="p" x="636" y="192">Private testing with a</text>
+  <text class="p" x="636" y="210">small group of traders.</text>
+</svg>

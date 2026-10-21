@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" role="img" aria-label="Planned architecture: desktop companion, companion services, NVIDIA GPU computing for AI inference">
+  <title>Planned architecture</title>
+  <style>
+    .eyebrow { font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 2.6px; fill: #6E7067; }
+    .k { font: 600 10px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 2px; fill: #6E7067; }
+    .kl { font: 600 10px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 2px; fill: #C7E86B; }
+    .h { font: 600 18px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #F5F1E6; }
+    .p { font: 400 13px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #9A9C92; }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+    .flow { stroke-dasharray: 2 8; animation: flow 1.6s linear infinite; }
+  </style>
+
+  <rect width="880" height="260" rx="18" fill="#0E0F0D"/>
+  <rect x="0.5" y="0.5" width="879" height="259" rx="17.5" fill="none" stroke="#24261F"/>
+
+  <text class="eyebrow" x="48" y="54">PLANNED ARCHITECTURE</text>
+
+  <path class="flow" d="M 284 148 H 322 M 558 148 H 596" stroke="#C7E86B" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <g>
+    <rect x="48" y="88" width="236" height="120" rx="12" fill="#161714" stroke="#2C2E28"/>
+    <text class="k" x="70" y="116">ON YOUR DESKTOP</text>
+    <text class="h" x="70" y="146">Novi companion</text>
+    <text class="p" x="70" y="170">Character, voice and chat</text>
+    <text class="p" x="70" y="189">in a small persistent window.</text>
+  </g>
+  <g>
+    <rect x="322" y="88" width="236" height="120" rx="12" fill="#161714" stroke="#2C2E28"/>
+    <text class="k" x="344" y="116">COMPANION SERVICES</text>
+    <text class="h" x="344" y="146">Memory and context</text>
+    <text class="p" x="344" y="170">Preferences, trade notes</text>
+    <text class="p" x="344" y="189">and conversation history.</text>
+  </g>
+  <g>
+    <rect x="596" y="88" width="236" height="120" rx="12" fill="#151A0E" stroke="#4A5A26"/>
+    <text class="kl" x="618" y="116">POWERED BY NVIDIA</text>
+    <text class="h" x="618" y="146">GPU computing</text>
+    <text class="p" x="618" y="170">AI inference behind every</text>
+    <text class="p" x="618" y="189">conversation with Novi.</text>
+  </g>
+</svg>

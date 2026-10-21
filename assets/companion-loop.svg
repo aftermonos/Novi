@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="The planned companion loop: talk it through, keep the reasoning, notice the pattern">
+  <title>The planned companion loop</title>
+  <style>
+    .eyebrow { font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 2.6px; fill: #6E7067; }
+    .num { font: 600 11px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 1.6px; fill: #C7E86B; }
+    .h { font: 600 19px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #F5F1E6; }
+    .p { font: 400 13px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #9A9C92; }
+    .foot { font: 400 12px 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 1.2px; fill: #6E7067; }
+  </style>
+
+  <rect width="880" height="300" rx="18" fill="#0E0F0D"/>
+  <rect x="0.5" y="0.5" width="879" height="299" rx="17.5" fill="none" stroke="#24261F"/>
+
+  <text class="eyebrow" x="48" y="54">THE COMPANION LOOP  /  PLANNED</text>
+
+  <!-- connectors -->
+  <path d="M 284 132 H 322 M 558 132 H 596" stroke="#3A3C35" stroke-width="1.5" fill="none"/>
+  <path d="M 714 182 C 714 234, 680 246, 440 246 C 200 246, 166 234, 166 182" stroke="#3A3C35" stroke-width="1.5" stroke-dasharray="3 6" fill="none"/>
+
+  <!-- travelling marker, drawn beneath the cards so it slips behind each one -->
+  <circle r="3.5" fill="#C7E86B">
+    <animateMotion dur="11s" repeatCount="indefinite"
+      path="M 166 132 H 714 V 182 C 714 234, 680 246, 440 246 C 200 246, 166 234, 166 182 Z"/>
+  </circle>
+
+  <g>
+    <rect x="48" y="84" width="236" height="98" rx="12" fill="#161714" stroke="#2C2E28"/>
+    <text class="num" x="70" y="112">01</text>
+    <text class="h" x="70" y="140">Talk it through</text>
+    <text class="p" x="70" y="163">Explain a trade in plain words.</text>
+  </g>
+  <g>
+    <rect x="322" y="84" width="236" height="98" rx="12" fill="#161714" stroke="#2C2E28"/>
+    <text class="num" x="344" y="112">02</text>
+    <text class="h" x="344" y="140">Keep the why</text>
+    <text class="p" x="344" y="163">Your reasoning, kept in context.</text>
+  </g>
+  <g>
+    <rect x="596" y="84" width="236" height="98" rx="12" fill="#161714" stroke="#3A4424"/>
+    <text class="num" x="618" y="112">03</text>
+    <text class="h" x="618" y="140">Notice the pattern</text>
+    <text class="p" x="618" y="163">See your own habits over time.</text>
+  </g>
+
+  <text class="foot" x="440" y="276" text-anchor="middle">Each conversation adds to a shared history</text>
+</svg>
