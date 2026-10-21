@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <strong>CA:</strong> <code>GtNGmorrjkJ54oSPfRnBbMneqUzgPYfDZBbDV5zepump</code>
+</p>
+
+<p align="center">
   <a href="#what-novi-is">About</a>
   &nbsp;&middot;&nbsp;
   <a href="#the-companion-experience">Experience</a>
