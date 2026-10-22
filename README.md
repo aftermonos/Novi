@@ -12,9 +12,6 @@
   <strong>An AI trading companion that lives on your desktop and remembers why you made each trade.</strong>
 </p>
 
-<p align="center">
-  <strong>CA:</strong> <code>GtNGmorrjkJ54oSPfRnBbMneqUzgPYfDZBbDV5zepump</code>
-</p>
 
 <p align="center">
   <a href="#what-novi-is">About</a>
